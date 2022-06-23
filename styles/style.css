@@ -1,1 +1,405 @@
-/*# sourceMappingURL=style.css.map */
+html, body, p {
+  margin: 0;
+}
+
+main {
+  background-color: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ol, ul, h1, h2, h3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+.header-container .top-bar__container {
+  height: 24px;
+}
+.header-container .top-bar__container .top-bar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #353535;
+  height: 100%;
+}
+.header-container .top-bar__container .top-bar .top-bar__item {
+  width: 100%;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.header-container .header {
+  padding: 0 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+.header-container .header .shell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1600px;
+  height: 88px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 100%;
+  gap: 20px;
+}
+.header-container .header .shell .header__logo {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.header-container .header .shell .header__search {
+  width: 100%;
+  max-width: 791px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  background-color: #EFEFEF;
+  height: 40px;
+  margin-right: 50px;
+}
+.header-container .header .shell .header__search .header__search__box {
+  width: calc(100% - 143px);
+  height: 100%;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #353535;
+  margin-left: 24px;
+}
+.header-container .header .shell .header__search .header__search__box:focus-within {
+  outline: none;
+}
+.header-container .header .shell .header__search .header__search__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 119px;
+  border: none;
+  background-color: #FAA500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  transition: all 0.2s ease-out;
+}
+.header-container .header .shell .header__search .header__search__button:hover {
+  cursor: pointer;
+  background-color: #353535;
+}
+.header-container .header .shell .header__search .header__search__button--mobile {
+  display: none;
+}
+.header-container .header .shell .header__client-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 21px;
+  width: 100%;
+  max-width: 406px;
+}
+.header-container .header .shell .header__client-content .header__client-content__account,
+.header-container .header .shell .header__client-content .header__client-content__fav,
+.header-container .header .shell .header__client-content .header__client-content__cart {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #353535;
+}
+.header-container .header .shell .header__client-content .header__client-content__account:hover,
+.header-container .header .shell .header__client-content .header__client-content__fav:hover,
+.header-container .header .shell .header__client-content .header__client-content__cart:hover {
+  color: #FAA500;
+}
+.header-container .header .shell .header__client-content .header__client-content__account:hover svg path,
+.header-container .header .shell .header__client-content .header__client-content__fav:hover svg path,
+.header-container .header .shell .header__client-content .header__client-content__cart:hover svg path {
+  fill: #FAA500;
+}
+.header-container .header .shell .header__client-content .header__client-content__account svg path,
+.header-container .header .shell .header__client-content .header__client-content__fav svg path,
+.header-container .header .shell .header__client-content .header__client-content__cart svg path {
+  fill: #353535;
+}
+.header-container .header .shell .header__client-content .header__client-content__account svg {
+  margin-right: 8px;
+}
+.header-container .header .shell .header__client-content .header__client-content__fav svg {
+  margin-right: 8.01px;
+}
+.header-container .header .shell .header__client-content .header__client-content__cart {
+  border: 1px solid #FAA500;
+  padding: 12px 14px 13px 17px;
+  border-radius: 10px;
+}
+.header-container .header .shell .header__client-content .header__client-content__cart svg {
+  margin-right: 8.62px;
+}
+
+.menu-container {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 10px;
+  background-color: #FFFFFF;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.16);
+}
+.menu-container .menu-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu-container .menu-shell .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1040px;
+}
+.menu-container .menu-shell .menu .menu__item:hover {
+  color: #FAA500;
+}
+.menu-container .menu-shell .menu .menu__item .menu__item__content {
+  display: flex;
+  align-items: center;
+  gap: 9.75px;
+  height: 48px;
+}
+.menu-container .menu-shell .menu .featured {
+  color: #FAA500;
+  font-weight: 700;
+}
+.menu-container .menu-shell .menu .featured:hover {
+  color: #353535;
+}
+.menu-container .menu-shell .menu .featured .menu__item__content svg path {
+  fill: #353535;
+}
+
+.main-banner-container .banner {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+.main-banner-container .banner .banner__img img {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.main-banner-container .banner .banner__info {
+  cursor: -webkit-grab;
+  cursor: grab;
+  position: absolute;
+  top: 151px;
+  left: 17%;
+  height: 100%;
+  max-width: 471px;
+  width: 100%;
+  max-height: 217px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.main-banner-container .banner .banner__info h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.76px;
+}
+.main-banner-container .banner .banner__info p {
+  margin-top: 10px;
+  max-width: 450px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.main-banner-container .banner .banner__info a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  width: 128px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FAA500;
+  color: #FFFFFF;
+  text-align: center;
+}
+.main-banner-container .slick-prev {
+  position: absolute;
+  top: calc(50% - 30px);
+  z-index: 2;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8%;
+}
+.main-banner-container .slick-next {
+  position: absolute;
+  top: calc(50% - 30px);
+  z-index: 2;
+  background: none;
+  border: none;
+  cursor: pointer;
+  right: 0;
+  margin-right: 8%;
+}
+.main-banner-container .slick-dots li.slick-active,
+.main-banner-container .slick-dots li:hover {
+  background: #faa500;
+}
+.main-banner-container .slick-dots {
+  display: inline-flex;
+  justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  gap: 16px;
+}
+.main-banner-container .slick-dots li {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #faa500;
+  transition: all 0.2s ease-out;
+}
+.main-banner-container .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.differentials-and-partners-container {
+  padding: 0 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 74px;
+  margin-bottom: 80px;
+}
+.differentials-and-partners-container .diferentials-shell {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Titillium Web", sans-serif;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials {
+  text-align: center;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24.34px;
+  color: #353535;
+  margin: 24px;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content {
+  display: flex;
+  gap: 15px;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 22px;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  width: 308px;
+  height: 64px;
+  padding-left: 24px;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card:nth-child(even) {
+  width: 307px;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card .diferentials__content__card__txt {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18.25px;
+  color: #000000;
+}
+.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card .diferentials__content__card__txt em {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21.29px;
+  text-decoration: none;
+  font-style: normal;
+  color: #353535;
+}
+.differentials-and-partners-container .partners-shell {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Titillium Web", sans-serif;
+}
+.differentials-and-partners-container .partners-shell .partners {
+  text-align: center;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48.67px;
+  color: #353535;
+  margin-bottom: 24px;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content .partners__content__card {
+  display: inline-block;
+  width: 308px;
+  height: 64px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content .one {
+  background: url(/img/comma.png);
+  width: 308px;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content .two {
+  background: url(/img/melissa.png);
+  width: 307px;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content .three {
+  background: url(/img/forever-21.png);
+  width: 308px;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content .four {
+  background: url(/img/zara.png);
+  border-radius: 0px;
+  width: 322px;
+  margin-right: 0px;
+}
+.differentials-and-partners-container .partners-shell .partners .partners__content .five {
+  background: url(/img/ann-taylor.png);
+  width: 307px;
+  margin-right: 0px;
+}/*# sourceMappingURL=style.css.map */

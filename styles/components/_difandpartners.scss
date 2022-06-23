@@ -1,0 +1,105 @@
+@import "../abstract/variables";
+
+.differentials-and-partners-container {
+  padding: 0 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 74px;
+  margin-bottom: 80px;
+  .diferentials-shell {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: $primary-font;
+    .diferentials {
+      text-align: center;
+      .diferentials__title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24.34px;
+        color: $color-2;
+        margin: 24px;
+      }
+      .diferentials__content {
+        display: flex;
+        gap: 15px;
+        .diferentials__content__card {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          text-align: left;
+          gap: 22px;
+          background-color: $color-6;
+          border-radius: 4px;
+          width: 308px;
+          height: 64px;
+          padding-left: 24px;
+          &:nth-child(even) {
+            width: 307px;
+          }
+          .diferentials__content__card__txt {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18.25px;
+            color: $color-4;
+            em {
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 21.29px;
+              text-decoration: none;
+              font-style: normal;
+              color: $color-2;
+            }
+          }
+        }
+      }
+    }
+  }
+  .partners-shell {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: $primary-font;
+    .partners {
+      text-align: center;
+      .partners__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48.67px;
+        color: $color-2;
+        margin-bottom: 24px;
+      }
+      .partners__content {
+        width: max-content;
+        .partners__content__card {
+          display: inline-block;
+          width: 308px;
+          height: 64px;
+          border-radius: 4px;
+          margin-right: 15px;
+        }
+        .one {
+          background: url(/img/comma.png);
+          width: 308px;
+        }
+        .two {
+          background: url(/img/melissa.png);
+          width: 307px;
+        }
+        .three {
+          background: url(/img/forever-21.png);
+          width: 308px;
+        }
+        .four {
+          background: url(/img/zara.png);
+          border-radius: 0px;
+          width: 322px;
+          margin-right: 0px;
+        }
+        .five {
+          background: url(/img/ann-taylor.png);
+          width: 307px;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
