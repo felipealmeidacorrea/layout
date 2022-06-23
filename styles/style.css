@@ -377,23 +377,24 @@ ol, ul, h1, h2, h3 {
 .differentials-and-partners-container .partners-shell .partners .partners__content .one {
   background: url(https://i.imgur.com/Qoc0YF7.png);
   width: 308px;
+  margin-right: 16px;
 }
 .differentials-and-partners-container .partners-shell .partners .partners__content .two {
-  background: url(/img/melissa.png);
+  background: url(https://i.imgur.com/cHLLxR4.png);
   width: 307px;
 }
 .differentials-and-partners-container .partners-shell .partners .partners__content .three {
-  background: url(/img/forever-21.png);
+  background: url(https://i.imgur.com/JOTNQgl.png);
   width: 308px;
 }
 .differentials-and-partners-container .partners-shell .partners .partners__content .four {
-  background: url(/img/zara.png);
+  background: url(https://i.imgur.com/PN0nOAY.png);
   border-radius: 0px;
   width: 322px;
-  margin-right: 0px;
+  margin-right: 1px;
 }
 .differentials-and-partners-container .partners-shell .partners .partners__content .five {
-  background: url(/img/ann-taylor.png);
+  background: url(https://i.imgur.com/qZ1WvYA.png);
   width: 307px;
   margin-right: 0px;
 }/*# sourceMappingURL=style.css.map */
