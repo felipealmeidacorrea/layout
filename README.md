@@ -16,13 +16,6 @@
   <a href="#Licença">Observações e notas importantes</a>
 </p>
 
-
-<div align="center">
-    <h3>🖥 Versão Desktop</h3>
-    <img src="https://i.ibb.co/r7Vm1NJ/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
-    <h3>📱 Versão Mobile</h3>
-    <img src="https://i.ibb.co/59mtS3P/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
-</div>
 <hr>
 
 ## 🛍 E-commerce Maeztra:
