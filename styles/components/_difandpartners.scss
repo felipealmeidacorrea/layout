@@ -76,7 +76,8 @@
                     margin-right: 15px;
                 }
                 .one {
-                    background: url(/img/comma.png);
+                    background-image: url("/img/comma.png");
+                    background-size: cover;
                     width: 308px;
                     height: 64px;
                     margin-right: 16px;
