@@ -33,6 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e práticas:
 - [CSS-BEM][cssbem]
 - [SASS][sass]
 - [LazySizes][lazysizes]
+- [FontAwesome][fontawesome]
 
 
 ## ❗ Notas e obervações:
@@ -62,3 +63,4 @@ Projeto desenvolvido  por **Felipe Almeida Correa** 👩‍💻 [Entre em contat
 [maeztra]: https://maeztra.com/
 [lazysizes]: https://github.com/aFarkas/lazysizes
 [projeto]:https://felipealmeidacorrea.github.io/layout
+[fontawesome]:https://fontawesome.com
