@@ -14,10 +14,14 @@
     display: flex;
     flex-flow: column;
     gap: 74px;
-    margin-bottom: 80px;
-    overflow: scroll;
+    margin-bottom: 75px;
+    overflow-x: scroll;
+    overflow-y: hidden;
     @media (max-width: 1619px) {
         padding: 0 31px;
+    }
+    @media (max-width: 979px) {
+        margin-bottom: 40px;
     }
     .diferentials-shell {
         width: 1600px;
@@ -72,7 +76,8 @@
 }
 
 .partners-container {
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     @media (max-width: 1619px) {
         padding: 0 31px;
     }
