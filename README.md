@@ -7,11 +7,11 @@
 </h4>
 
 <h2 align="center">
-    Navegue pelo index
+    Navegue pelo index 👇🏽
 </h2>
 
 <p align="center">
-  <a href="https://maribelniok.github.io/layout-maeztra/">Ver o projeto funcionando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://felipealmeidacorrea.github.io/layout/">Ver o projeto funcionando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Tecnologias">Tecnologias e práticas usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Licença">Observações e notas importantes</a>
 </p>
@@ -19,9 +19,9 @@
 
 <div align="center">
     <h3>🖥 Versão Layout</h3>
-    <img src="images/readme/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
+    <img src="images/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
     <h3>📱 Mobile Layout</h3>
-    <img src="images/readme/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
+    <img src="images/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
 </div>
 <hr>
 
@@ -49,6 +49,8 @@ Caso precisa rodar localmente é necessário executar ele em modo de live serve 
 Ultimamente (data de hoje: 24/06/2022) tenho notado um porblema para vizualizar projetos com slick pelo console do Chrome, buga muito quando tentamos verificar outras resoluções. Até então tenho tido uma boa experiência usando o Firefox para isso. Caso esteja rodando no Chorme perceba alguma falha ao alterar a resolução no console, não se preocupe. É um bug com a plataforma mesmo. Em produção o projeto apresentará outro desempenho.
 Não pude trabalhar a questão de acessibilidade como queria por conta do prazo. É um ponto muito importante a ser considerado atualmente.
 O projeto está com a estilização bem dividida com a ajuda do [SASS][sass] para permitir um trabalho contínuo depois. Para os compontentes individuais utilizei a pasta components dentro da pasta styles, para variáveis e arquivo base (similar ao reset) utilizei a pasta abstract no mesmo diretório. Todos são montados utilizando um @import em um arquivo único chamado style.scss e alguns isolados como no caso dos arquivos de estilo do slick e também de um modal feito de última hora.
+
+Procurei seguir ao máximo os detalhes do modelo, nos míniomos detalhes entrando no modo "recebendo demanda de cliente". Portanto, se você ver uma imagem deslocada ou tiver uma senação de desalinhamento em alguns pontos, foi puramente por ter levado cada píxel do layout em consideração. 
 
 Caso tenha alguma dúvida, verifique meu contato a seguir, responderei assim que puder. ✌️
 
