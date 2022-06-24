@@ -202,6 +202,7 @@
         }
     }
     .slick-next {
+        display: none !important;
         position: absolute;
         top: calc(50% - 30px);
         z-index: 2;

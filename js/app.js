@@ -47,8 +47,7 @@ $(document).ready(function() {
     $(".shelf__list").slick({
         lazyLoad: "ondemand",
         waitForAnimate: false,
-        autoplay: !0,
-        autoplaySpeed: 4500,
+        autoplay: false,
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
