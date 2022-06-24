@@ -1178,7 +1178,7 @@ h5 {
 }
 .footer-container .footer-bottom-container .footer-bottom-shell .footer-bottom .footer-bottom__copyright .footer-bottom__copyright__list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 22px;
 }
 .footer-container .footer-bottom-container .footer-bottom-shell .footer-bottom .footer-bottom__copyright .footer-bottom__copyright__list .footer-bottom__copyright__list__item .footer-bottom__copyright__list__item__title {
