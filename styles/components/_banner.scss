@@ -52,6 +52,13 @@
         border: none;
         cursor: pointer;
         margin-left: 8%;
+        &:hover {
+            svg {
+                path {
+                    fill: $color-1;
+                }
+            }
+        }
     }
     .slick-next {
         position: absolute;
@@ -62,6 +69,13 @@
         cursor: pointer;
         right: 0;
         margin-right: 8%;
+        &:hover {
+            svg {
+                path {
+                    fill: $color-1;
+                }
+            }
+        }
     }
     .slick-dots li.slick-active,
     .slick-dots li:hover {

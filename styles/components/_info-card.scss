@@ -1,0 +1,32 @@
+@import "../abstract/variables";
+.info-card-container {
+    font-family: $primary-font;
+    margin-top: 67px;
+    .info-card-shell {
+        width: 1600px;
+        max-width: 100%;
+        margin: 0 auto;
+        .info-card {
+            display: flex;
+            align-items: center;
+            .info-card__txt {
+                width: 420px;
+                h5 {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 36.5px;
+                    margin-bottom: 16px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21.29px;
+                }
+            }
+            .info-card__img {
+                margin-left: 64px;
+                border-radius: 4px;
+            }
+        }
+    }
+}

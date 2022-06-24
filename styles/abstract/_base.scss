@@ -1,6 +1,7 @@
 @import './variables';
-
-html, body, p {
+html,
+body,
+p {
     margin: 0;
 }
 
@@ -13,8 +14,14 @@ a {
     color: unset;
 }
 
-ol, ul, h1, h2, h3 {
-	list-style: none;
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
