@@ -46,6 +46,10 @@
                 background-color: $color-1;
                 color: $color-5;
                 text-align: center;
+                transition: all 0.2s ease-out;
+                &:hover {
+                    background-color: $color-2;
+                }
             }
         }
     }
@@ -57,6 +61,9 @@
         border: none;
         cursor: pointer;
         margin-left: 8%;
+        svg {
+            transition: all 0.2s ease-out;
+        }
         &:hover {
             svg {
                 path {
@@ -74,6 +81,9 @@
         cursor: pointer;
         right: 0;
         margin-right: 8%;
+        svg {
+            transition: all 0.2s ease-out;
+        }
         &:hover {
             svg {
                 path {
@@ -169,6 +179,9 @@
                 background-color: $color-1;
                 color: $color-5;
                 text-align: center;
+                &:hover {
+                    background-color: $color-2;
+                }
             }
         }
     }

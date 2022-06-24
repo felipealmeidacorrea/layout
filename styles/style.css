@@ -297,6 +297,10 @@ h5 {
   background-color: #FAA500;
   color: #FFFFFF;
   text-align: center;
+  transition: all 0.2s ease-out;
+}
+.main-banner-container .banner .banner__info a:hover {
+  background-color: #353535;
 }
 .main-banner-container .slick-prev {
   position: absolute;
@@ -306,6 +310,9 @@ h5 {
   border: none;
   cursor: pointer;
   margin-left: 8%;
+}
+.main-banner-container .slick-prev svg {
+  transition: all 0.2s ease-out;
 }
 .main-banner-container .slick-prev:hover svg path {
   fill: #FAA500;
@@ -319,6 +326,9 @@ h5 {
   cursor: pointer;
   right: 0;
   margin-right: 8%;
+}
+.main-banner-container .slick-next svg {
+  transition: all 0.2s ease-out;
 }
 .main-banner-container .slick-next:hover svg path {
   fill: #FAA500;
@@ -415,6 +425,9 @@ h5 {
   color: #FFFFFF;
   text-align: center;
 }
+.main-banner-container--mobile .banner .banner__info a:hover {
+  background-color: #353535;
+}
 .main-banner-container--mobile .slick-prev {
   position: absolute;
   top: calc(50% - 30px);
@@ -482,33 +495,39 @@ h5 {
   }
 }
 
-.differentials-and-partners-container {
-  padding: 0 10px;
-  display: flex;
-  flex-flow: column;
-  gap: 74px;
-  margin-bottom: 80px;
-}
-.differentials-and-partners-container .diferentials-shell {
-  width: 1600px;
-  margin: 0 auto;
-  font-family: "Titillium Web", sans-serif;
-}
-.differentials-and-partners-container .diferentials-shell .diferentials {
-  text-align: center;
-}
-.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__title {
+.diferentials-title {
   font-weight: 700;
   font-size: 16px;
   line-height: 24.34px;
   color: #353535;
   margin: 24px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
 }
-.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content {
+
+.differentials-container {
+  padding: 0 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 74px;
+  margin-bottom: 80px;
+  overflow: scroll;
+}
+@media (max-width: 1619px) {
+  .differentials-container {
+    padding: 0 31px;
+  }
+}
+.differentials-container .diferentials-shell {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Titillium Web", sans-serif;
+}
+.differentials-container .diferentials-shell .diferentials .diferentials__content {
   display: flex;
   gap: 15px;
 }
-.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card {
+.differentials-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -520,16 +539,16 @@ h5 {
   height: 64px;
   padding-left: 24px;
 }
-.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card:nth-child(even) {
+.differentials-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card:nth-child(even) {
   width: 307px;
 }
-.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card .diferentials__content__card__txt {
+.differentials-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card .diferentials__content__card__txt {
   font-weight: 400;
   font-size: 12px;
   line-height: 18.25px;
   color: #000000;
 }
-.differentials-and-partners-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card .diferentials__content__card__txt em {
+.differentials-container .diferentials-shell .diferentials .diferentials__content .diferentials__content__card .diferentials__content__card__txt em {
   font-weight: 700;
   font-size: 14px;
   line-height: 21.29px;
@@ -537,36 +556,46 @@ h5 {
   font-style: normal;
   color: #353535;
 }
-.differentials-and-partners-container .partners-shell {
-  width: 1600px;
-  margin: 0 auto;
-  font-family: "Titillium Web", sans-serif;
-}
-.differentials-and-partners-container .partners-shell .partners {
-  text-align: center;
-}
-.differentials-and-partners-container .partners-shell .partners .partners__title {
+
+.partners-title {
   font-weight: 700;
   font-size: 32px;
   line-height: 48.67px;
   color: #353535;
   margin-bottom: 24px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content {
+
+.partners-container {
+  overflow: scroll;
+}
+@media (max-width: 1619px) {
+  .partners-container {
+    padding: 0 31px;
+  }
+}
+.partners-container .partners-shell {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Titillium Web", sans-serif;
+}
+.partners-container .partners-shell .partners .partners__content {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content .partners__content__card {
+.partners-container .partners-shell .partners .partners__content .partners__content__card {
   display: inline-block;
   width: 308px;
   height: 64px;
   border-radius: 4px;
   margin-right: 15px;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content .one {
+.partners-container .partners-shell .partners .partners__content .one {
   background-image: url("https://i.imgur.com/Qoc0YF7.png");
   background-image: url("/img/comma.png");
   background-size: cover;
@@ -574,21 +603,36 @@ h5 {
   height: 64px;
   margin-right: 16px;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content .two {
+@media (max-width: 980px) {
+  .partners-container .partners-shell .partners .partners__content .one:nth-of-type(1) {
+    order: 3;
+  }
+}
+.partners-container .partners-shell .partners .partners__content .two {
   background-image: url("https://i.imgur.com/cHLLxR4.png");
   background-image: url("/img/melissa.png");
   background-size: cover;
   width: 307px;
   height: 64px;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content .three {
+@media (max-width: 980px) {
+  .partners-container .partners-shell .partners .partners__content .two:nth-of-type(2) {
+    order: 2;
+  }
+}
+.partners-container .partners-shell .partners .partners__content .three {
   background-image: url("https://i.imgur.com/JOTNQgl.png");
   background-image: url("/img/forever-21.png");
   background-size: cover;
   width: 308px;
   height: 64px;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content .four {
+@media (max-width: 980px) {
+  .partners-container .partners-shell .partners .partners__content .three:nth-of-type(3) {
+    order: 1;
+  }
+}
+.partners-container .partners-shell .partners .partners__content .four {
   background-image: url("https://i.imgur.com/PN0nOAY.png");
   background-image: url("/img/zara.png");
   border-radius: 0px;
@@ -596,12 +640,22 @@ h5 {
   height: 67px;
   margin-right: 1px;
 }
-.differentials-and-partners-container .partners-shell .partners .partners__content .five {
+@media (max-width: 980px) {
+  .partners-container .partners-shell .partners .partners__content .four:nth-of-type(4) {
+    order: 4;
+  }
+}
+.partners-container .partners-shell .partners .partners__content .five {
   background-image: url("https://i.imgur.com/qZ1WvYA.png");
   background-image: url("/img/ann-taylor.png");
   width: 307px;
   height: 64px;
   margin-right: 0px;
+}
+@media (max-width: 980px) {
+  .partners-container .partners-shell .partners .partners__content .five:nth-of-type(5) {
+    order: 5;
+  }
 }
 
 .shelf-container {

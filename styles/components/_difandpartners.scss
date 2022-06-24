@@ -1,23 +1,29 @@
 @import "../abstract/variables";
-.differentials-and-partners-container {
+.diferentials-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.34px;
+    color: $color-2;
+    margin: 24px;
+    text-align: center;
+    font-family: $primary-font;
+}
+
+.differentials-container {
     padding: 0 10px;
     display: flex;
     flex-flow: column;
     gap: 74px;
     margin-bottom: 80px;
+    overflow: scroll;
+    @media (max-width: 1619px) {
+        padding: 0 31px;
+    }
     .diferentials-shell {
         width: 1600px;
         margin: 0 auto;
         font-family: $primary-font;
         .diferentials {
-            text-align: center;
-            .diferentials__title {
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 24.34px;
-                color: $color-2;
-                margin: 24px;
-            }
             .diferentials__content {
                 display: flex;
                 gap: 15px;
@@ -53,22 +59,32 @@
             }
         }
     }
+}
+
+.partners-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48.67px;
+    color: $color-2;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: $primary-font;
+}
+
+.partners-container {
+    overflow: scroll;
+    @media (max-width: 1619px) {
+        padding: 0 31px;
+    }
     .partners-shell {
         width: 1600px;
         margin: 0 auto;
         font-family: $primary-font;
         .partners {
-            text-align: center;
-            .partners__title {
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 48.67px;
-                color: $color-2;
-                margin-bottom: 24px;
-            }
             .partners__content {
                 width: max-content;
                 display: flex;
+                flex-direction: row;
                 align-items: center;
                 .partners__content__card {
                     display: inline-block;
@@ -78,41 +94,66 @@
                     margin-right: 15px;
                 }
                 .one {
-                    background-image: url('https://i.imgur.com/Qoc0YF7.png');
-                    background-image: url('/img/comma.png');
+                    background-image: url("https://i.imgur.com/Qoc0YF7.png");
+                    background-image: url("/img/comma.png");
                     background-size: cover;
                     width: 308px;
                     height: 64px;
                     margin-right: 16px;
+                    @media (max-width: 980px) {
+                        &:nth-of-type(1) {
+                            order: 3;
+                        }
+                    }
                 }
                 .two {
-                    background-image: url('https://i.imgur.com/cHLLxR4.png');
-                    background-image: url('/img/melissa.png');
+                    background-image: url("https://i.imgur.com/cHLLxR4.png");
+                    background-image: url("/img/melissa.png");
                     background-size: cover;
                     width: 307px;
                     height: 64px;
+                    @media (max-width: 980px) {
+                        &:nth-of-type(2) {
+                            order: 2;
+                        }
+                    }
                 }
                 .three {
-                    background-image: url('https://i.imgur.com/JOTNQgl.png');
-                    background-image: url('/img/forever-21.png');
+                    background-image: url("https://i.imgur.com/JOTNQgl.png");
+                    background-image: url("/img/forever-21.png");
                     background-size: cover;
                     width: 308px;
                     height: 64px;
+                    @media (max-width: 980px) {
+                        &:nth-of-type(3) {
+                            order: 1;
+                        }
+                    }
                 }
                 .four {
-                    background-image: url('https://i.imgur.com/PN0nOAY.png');
-                    background-image: url('/img/zara.png');
+                    background-image: url("https://i.imgur.com/PN0nOAY.png");
+                    background-image: url("/img/zara.png");
                     border-radius: 0px;
                     width: 322px;
                     height: 67px;
                     margin-right: 1px;
+                    @media (max-width: 980px) {
+                        &:nth-of-type(4) {
+                            order: 4;
+                        }
+                    }
                 }
                 .five {
-                    background-image: url('https://i.imgur.com/qZ1WvYA.png');
-                    background-image: url('/img/ann-taylor.png');
+                    background-image: url("https://i.imgur.com/qZ1WvYA.png");
+                    background-image: url("/img/ann-taylor.png");
                     width: 307px;
                     height: 64px;
                     margin-right: 0px;
+                    @media (max-width: 980px) {
+                        &:nth-of-type(5) {
+                            order: 5;
+                        }
+                    }
                 }
             }
         }
