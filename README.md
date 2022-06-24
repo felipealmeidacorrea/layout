@@ -7,13 +7,11 @@
 </h4>
 
 <h2 align="center">
-    Navegue pelo index 👇🏽
+    Veja o projeto rodando 👇🏽
 </h2>
 
 <p align="center">
-  <a href="https://felipealmeidacorrea.github.io/layout/">Ver o projeto funcionando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Tecnologias">Tecnologias e práticas usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Licença">Observações e notas importantes</a>
+  <a href="https://felipealmeidacorrea.github.io/layout/">Clique aqui para ir para o site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <hr>
