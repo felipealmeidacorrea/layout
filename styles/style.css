@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body,
 p {
@@ -654,4 +658,65 @@ h5 {
 .info-card-container .info-card-shell .info-card .info-card__img {
   margin-left: 64px;
   border-radius: 4px;
+}
+
+.footer-container {
+  font-family: "Titillium Web", sans-serif;
+  background-color: red;
+  padding-top: 80px;
+  background: #FAFAFA;
+  max-width: 100%;
+  overflow: hidden;
+}
+.footer-container .newsletter {
+  border-top: 2px solid #EFEFEF;
+  border-bottom: 2px solid #EFEFEF;
+}
+.footer-container .newsletter .newsletter__container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container .newsletter .newsletter__container .newsletter__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 36.5px;
+}
+.footer-container .newsletter .newsletter__container .newsletter__form {
+  position: relative;
+  max-width: 630px;
+  width: 100%;
+}
+.footer-container .newsletter .newsletter__container .newsletter__form .newsletter__form__input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #353535;
+  background: #FFFFFF;
+  height: 40px;
+  padding: 0 130px 0 24px;
+  line-height: 40px;
+  color: #353535;
+}
+.footer-container .newsletter .newsletter__container .newsletter__form .newsletter__form__button {
+  width: 130px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FAA500;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24.34px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.footer-container .newsletter .newsletter__container .newsletter__form .newsletter__form__button:hover {
+  background-color: #353535;
 }/*# sourceMappingURL=style.css.map */
