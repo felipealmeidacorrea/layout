@@ -50,8 +50,6 @@ Caso tenha alguma dúvida, verifique meu contato a seguir, responderei assim que
 
 Projeto desenvolvido  por **Felipe Almeida Correa** 👩‍💻 [Entre em contato!][linkedin]
 
-Readme inspirado em um modelo desenvolvido por: **Marianna Belniok** [Contato][credits]
-
 
 [sass]: https://sass-lang.com 
 [html]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
@@ -63,5 +61,4 @@ Readme inspirado em um modelo desenvolvido por: **Marianna Belniok** [Contato][c
 [linkedin]: https://www.linkedin.com/in/felipealmeidacorrea
 [maeztra]: https://maeztra.com/
 [lazysizes]: https://github.com/aFarkas/lazysizes
-[credits]: https://www.linkedin.com/in/marianna-belniok
 [projeto]:https://felipealmeidacorrea.github.io/layout
