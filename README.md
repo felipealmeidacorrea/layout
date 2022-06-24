@@ -18,7 +18,7 @@
 
 ## 🛍 E-commerce Maeztra:
 
-Desafio proposto pelo time da [Maeztra][maeztra] para testar habilidades e práticas além da atenção ao "fidelismo" ao template apresentado.
+Desafio proposto pelo time da [Maeztra][maeztra] para testar habilidades e práticas além da fidelidade ao layout.
 
 ## 🚀 Tecnologias:
 
