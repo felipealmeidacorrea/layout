@@ -245,6 +245,11 @@ h5 {
 .menu-container .menu-shell .menu .featured .menu__item__content svg path {
   fill: #353535;
 }
+@media (max-width: 980px) {
+  .menu-container {
+    display: none;
+  }
+}
 
 .main-banner-container .banner {
   position: relative;
