@@ -16,6 +16,7 @@
 .shelf-container {
     padding: 0 10px;
     display: flex;
+    overflow: hidden;
     .shelf-shell {
         width: 1600px;
         margin: 0 auto;

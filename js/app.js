@@ -88,6 +88,14 @@ $(document).ready(function() {
 
 });
 
+jQuery(document).ready(function() {
+    jQuery('body').addClass('show-lightbox')
+})
+
+jQuery('.lightbox-newsletter__close, .lightbox-newsletter__mask').click(function() {
+    jQuery('body').removeClass('show-lightbox')
+})
+
 jQuery('.product__content__variants-container__list').each(function() {
     jQuery(this).find('.product__content__variants-container__list__item:first-child div').addClass('selected')
 })
