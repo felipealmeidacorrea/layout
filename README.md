@@ -18,10 +18,10 @@
 
 
 <div align="center">
-    <h3>🖥 Versão Layout</h3>
-    <img src="images/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
-    <h3>📱 Mobile Layout</h3>
-    <img src="images/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
+    <h3>🖥 Versão Desktop</h3>
+    <img src="https://i.ibb.co/r7Vm1NJ/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
+    <h3>📱 Versão Mobile</h3>
+    <img src="https://i.ibb.co/59mtS3P/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
 </div>
 <hr>
 
