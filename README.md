@@ -7,23 +7,27 @@
 </h4>
 
 <h2 align="center">
-    Veja o projeto rodando 👇🏽
+    Link para o projeto online 👇🏽
 </h2>
 
 <p align="center">
-  <a href="https://felipealmeidacorrea.github.io/layout/">Clique aqui para ir para o site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://felipealmeidacorrea.github.io/layout/">Clique aqui para ir para o site</a>
 </p>
 
+<h2 align="center">
+    Prévia
+</h2>
+
 <div align="center">
-    <h3>🖥 Versão Desktop</h3>
+    <h3>🖥️ Desktop</h3>
     <img src="img/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
-    <h3>📱 Versão Mobile</h3>
-    <img src="https://i.ibb.co/59mtS3P/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
+    <h3>📱 Mobile</h3>
+    <img src="img/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
 </div>
 
 <hr>
 
-##E-commerce Maeztra:
+## E-commerce Maeztra:
 
 Desafio proposto pelo time da [Maeztra][maeztra] para testar habilidades e práticas além da fidelidade ao layout.
 
