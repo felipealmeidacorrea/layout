@@ -47,7 +47,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e práticas:
 
 ## ❗ Notas e obervações:
 
-<p>
 Para ver o projeto corretamente recomendo que utilize a versão live rodando nesse [Link][projeto]<br>
 Caso precisa rodar localmente é necessário executar ele em modo de live serve  (recomendo utilizar o VS Code)<br>
 Ultimamente (data de hoje: 24/06/2022) tenho notado um problema para visualizar projetos com slick pelo console do Chrome, buga muito quando tentamos verificar outras resoluções. Até então tenho tido uma boa experiência usando o Firefox para isso. Caso esteja rodando no Chrome perceba alguma falha ao alterar a resolução no console, não se preocupe. É um bug com a plataforma mesmo. Em produção o projeto apresentará outro desempenho.<br>
@@ -59,8 +58,6 @@ Caso tenha alguma dúvida, verifique meu contato a seguir, responderei o quanto 
 
 
 Projeto desenvolvido  por **Felipe Almeida Correa** 👩‍💻 [Entre em contato!][linkedin]
-
-</p>
 
 
 [sass]: https://sass-lang.com 
