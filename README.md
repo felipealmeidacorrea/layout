@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	✔ Desafio Programador Web JR III - Felipe Almeida
+	✔ Desafio Programador Web JR III - Felipe Almeida Correa
 </h4>
 
 <h2 align="center">
