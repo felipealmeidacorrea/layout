@@ -20,7 +20,7 @@
 
 <div align="center">
     <h3>🖥️ Desktop</h3>
-    <img src="img/desktop.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
+    <img src="img/desktop-n.gif" alt="Maeztra e-commerce gif" height="300px"> <br><br>
     <h3>📱 Mobile</h3>
     <img src="img/mobile.gif" alt="Maeztra e-commerce gif" height="300px">
 </div>
