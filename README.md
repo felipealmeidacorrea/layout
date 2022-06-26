@@ -52,7 +52,7 @@ Caso precisa rodar localmente é necessário executar ele em modo de live serve 
 Ultimamente (data de hoje: 24/06/2022) tenho notado um problema para visualizar projetos com slick pelo console do Chrome, buga muito quando tentamos verificar outras resoluções. Até então tenho tido uma boa experiência usando o Firefox para isso. Caso esteja rodando no Chrome perceba alguma falha ao alterar a resolução no console, não se preocupe. É um bug com a plataforma mesmo. Em produção o projeto apresentará outro desempenho.<br>
 O projeto está com a estilização bem dividida com a ajuda do [SASS][sass] para permitir um trabalho contínuo depois. Para os componentes individuais utilizei a pasta components dentro da pasta styles, para variáveis e arquivo base (similar ao reset) utilizei a pasta abstract no mesmo diretório. Todos são montados utilizando um @import em um arquivo único chamado style.scss e alguns isolados como no caso dos arquivos de estilo do slick e também de um modal feito de última hora.<br><br>
 
-Procurei seguir ao máximo os detalhes do modelo, nos mínimos detalhes entrando no modo "recebendo demanda de cliente". Portanto, se você ver uma imagem deslocada ou tiver uma sensação de desalinhamento em alguns pontos, foi puramente por ter levado cada pixel do layout em consideração.<br><br>
+Procurei seguir ao máximo os detalhes do modelo, nos mínimos detalhes, portanto, se você ver uma imagem deslocada ou tiver uma sensação de desalinhamento em alguns pontos, foi puramente por ter levado cada pixel do layout em consideração.<br><br>
 
 Caso tenha alguma dúvida, verifique meu contato a seguir, responderei o quanto antes. ✌️<br><br>
 
