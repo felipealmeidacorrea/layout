@@ -195,6 +195,9 @@
             }
         }
     }
+    .slick-list {
+        padding: 0 0 0 5px;
+    }
     .slick-prev {
         position: absolute;
         top: calc(50% - 30px);
@@ -224,7 +227,7 @@
         // right: calc(100vh - 45%);
         left: calc(100% - 45px);
         @media (max-width: 1600px) {
-            left: calc(100% - 31px)
+            left: calc(100% - 31px);
         }
         @media (max-width: 1024px) {
             display: none !important;

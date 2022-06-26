@@ -884,6 +884,9 @@ h5 {
   transition: all 0.2s ease-out;
   cursor: pointer;
 }
+.shelf-container .slick-list {
+  padding: 0 0 0 5px;
+}
 .shelf-container .slick-prev {
   position: absolute;
   top: calc(50% - 30px);
